@@ -8,7 +8,7 @@ btn.addEventListener('click', (e) => {
     btn.style.backgroundColor = 'green';
 });
 
-btn.addEventListener('onmouse', (e) => {
+btn.addEventListener('onmouseover', (e) => {
     const myDiv = document.createElement('div');
     myDiv.classList.add('my_div');
     myDiv.style.width = '200px';
